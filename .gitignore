@@ -1,0 +1,21 @@
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ملفات المحررات
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# السجلات والملفات المؤقتة
+*.log
+*.tmp
+.cache/
+
+# اعتماديات Node (في حال إضافتها مستقبلاً)
+node_modules/
+package-lock.json
