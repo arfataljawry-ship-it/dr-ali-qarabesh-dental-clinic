@@ -26,6 +26,9 @@
 
 *{ box-sizing:border-box; }
 
+/* احترام خاصية hidden دائماً (تتغلب على display في القواعد الأخرى) */
+[hidden]{ display:none !important; }
+
 body{
   margin:0;
   font-family:'Tajawal','Segoe UI',Tahoma,sans-serif;
